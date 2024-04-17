@@ -58,7 +58,7 @@ shards:
 
   jwt-multisig:
     git: https://github.com/nusa-exchange/jwt-multisig.git
-    version: 1.0.0+git.commit.7b55e47ef7532495ec6f709f753fe6964c16c9de
+    version: 1.0.0+git.commit.931c9d85df07bf5eecf8c27e37a8f0e5d1c8f60a
 
   kafka:
     git: https://github.com/cloudkarafka/kafka.cr.git
