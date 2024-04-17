@@ -1,0 +1,40 @@
+name: applogic
+version: 1.0.0
+
+authors:
+  - qenjie <business@nusatech.id>
+
+targets:
+  applogic-api:
+    main: src/applogic-api.cr
+
+crystal: 0.36.1
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.26.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.7.2
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.2
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 0.7.0
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.5.0
+  jwt-multisig:
+    github: nusa-exchange/jwt-multisig
+  openssl_ext:
+    github: spider-gazelle/openssl_ext
+    version: ~> 2.0.0
+  kafka:
+    github: cloudkarafka/kafka.cr
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
+    version: ~> 0.14.0
